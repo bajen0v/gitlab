@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Breadcrumb = ({ title, subtitle, isDbbl = "" }) => {
+const Breadcrumb = ({ title, subtitle, isDbbl=''}) => {
   return (
     <section
       className="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay"
@@ -26,6 +26,7 @@ const Breadcrumb = ({ title, subtitle, isDbbl = "" }) => {
                     <span className="sub-page-black">{isDbbl}</span>
                     <span className="dvdr">
                       <i className="fa-regular fa-angle-right"></i>
+                      
                     </span>
                   </>
                 )}

@@ -49,6 +49,9 @@ const course_detail_date = [
 
 const CourseDetailsArea = ({course}) => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
+
+  const {title,course_title, course_price, course_name, st_text, cls_text, start_text, img, icon , about} = course
+
 console.log(course, 'area')
   return (
     <>
@@ -81,26 +84,26 @@ console.log(course, 'area')
                     <ul className="tpcourse__price-list d-flex align-items-center">
                       <li>
                         <a className="c-color-green" href="#">
-                          Photography
+                          {course_title}
                         </a>
                       </li>
                       <li>
                         <a className="c-color-yellow" href="#">
-                          Masterclass
+                        {course_name}
                         </a>
                       </li>
                     </ul>
                   </div>
                   <div className="tpcourse__ava-title mb-25">
                     <h4 className="c-details-title">
-                      <a href="#">Photography Masterclass: A Complete Guide</a>
+                      <a href="#">{title}</a>
                     </h4>
                   </div>
                   <div className="tpcourse__meta course-details-list">
                     <ul className="d-flex align-items-center">
                       <li>
                         <div className="rating-gold d-flex align-items-center">
-                          <p>4.7</p>
+                          <p>{start_text}</p>
                           <i className="fi fi-ss-star"></i>
                           <i className="fi fi-ss-star"></i>
                           <i className="fi fi-ss-star"></i>
@@ -114,21 +117,21 @@ console.log(course, 'area')
                           src="/assets/img/icon/c-meta-01.png"
                           alt="meta-icon"
                         />{" "}
-                        <span>27 Classes</span>
+                        <span>{cls_text}</span>
                       </li>
                       <li>
                         <img
                           src="/assets/img/icon/c-meta-02.png"
                           alt="meta-icon"
                         />{" "}
-                        <span>403 Students</span>
+                        <span>{st_text}</span>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className="c-details-about mb-40">
                   <h5 className="tp-c-details-title mb-20">
-                    About This Course
+                    {`${about} ${course_title}`}
                   </h5>
                   <p>
                     Are you passionate about capturing moments and telling
@@ -259,7 +262,7 @@ console.log(course, 'area')
                 </div>
                 <div className="course-details-widget">
                   <div className="cd-video-price">
-                    <h3 className="pricing-video text-center mb-15">$29.99</h3>
+                    <h3 className="pricing-video text-center mb-15">{course_price}</h3>
                     <div className="cd-pricing-btn text-center mb-30">
                       <Link className="tp-vp-btn" href="/course-details">
                         Add To Cart
@@ -271,35 +274,7 @@ console.log(course, 'area')
                   </div>
                   <div className="cd-information mb-35">
                     <ul>
-                     {course_detail_date.map(el =>  <li key={el.id}><i className={el.className}></i>{" "}<label>{el.label}</label> <span>{el.count}</span></li>)}
-                      {/* <li>
-                        <i className="fa-light fa-calendars"></i>{" "}
-                        <label>Lesson</label> <span>36</span>
-                      </li>
-                      <li>
-                        <i className="fi fi-rr-chart-pie-alt"></i>{" "}
-                        <label>Quizess</label> <span>6</span>
-                      </li>
-                      <li>
-                        <i className="fi fi-rr-user"></i>{" "}
-                        <label>Students</label> <span>105</span>
-                      </li>
-                      <li>
-                        <i className="fa-light fa-clock-desk"></i>{" "}
-                        <label>Duration</label> <span>16 Hours</span>
-                      </li>
-                      <li>
-                        <i className="fi fi-sr-stats"></i>{" "}
-                        <label>Skill Level</label> <span>Beginner</span>
-                      </li>
-                      <li>
-                        <i className="fi fi-rr-comments"></i>{" "}
-                        <label>Language</label> <span>English</span>
-                      </li>
-                      <li>
-                        <i className="fi fi-rs-diploma"></i>{" "}
-                        <label>Certificate</label> <span>Yes</span>
-                      </li> */}
+                      {course_detail_date.map(el => <li key={el.id}><i className={el.className}></i>{" "}<label>{el.label}</label> <span>{el.count}</span></li>)}
                     </ul>
                   </div>
                   <div className="c-details-social">

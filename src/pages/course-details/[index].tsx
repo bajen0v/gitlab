@@ -4,20 +4,21 @@ import CourseDetails from "@/src/components/course-details/course-details";
 import WrapperFour from "@/src/layout/wrapper-4";
 import { NextPage, GetServerSideProps, GetStaticPaths } from "next";
 import { CoursesService } from "@/src/services/courses.service";
-import { ICourseDataSingle } from "@/src/interfaces/courses.interfaces";
+import { ICourseDataSingle, ICourseData} from "@/src/interfaces/courses.interfaces";
 import { ParsedUrlQuery } from "querystring";
 import { useRouter } from "next/router";
 
-const index: NextPage<ICourseDataSingle> = ({ course }) => {
+const index: NextPage<ICourseData> = ({ courses }) => {
 
-  const {asPath,pathname} = useRouter()
+  const router = useRouter()
+  const course = courses.filter(el => String(el.id) === router.query.index)
 
-  console.log(course, 'detail')
-  console.log(pathname)
+  console.log(router.query.index, 'detail')
+  // console.log(pathname)
   return (
     <WrapperFour>
-      <SEO pageTitle={"Course Details"} />
-      <CourseDetails course={course} />
+      <SEO pageTitle={course[0].course_title} />
+      <CourseDetails course={course[0]} />
     </WrapperFour>
   );
 };
@@ -37,12 +38,13 @@ const index: NextPage<ICourseDataSingle> = ({ course }) => {
 //   };
 // };
 export const getServerSideProps: GetServerSideProps<
-  ICourseDataSingle
-> = async ({ params }) => {
-  const course = await CoursesService.getById(String(params?.id));
+  ICourseData
+> = async () => {
+  const courses = await CoursesService.getAll()
+  // const course = await CoursesService.getById(String(params?.id));
 
   return {
-    props: { course },
+    props: { courses },
   };
 };
 

@@ -14,10 +14,10 @@ export const CoursesService = {
 
     async getById(id:string){
         const {data} = await axios.get<ICourse[]>('',{
-        params: {
-            id
-        }
-    })
+            params: {
+                id
+            }
+        })
         return data[0]
         }
 } 

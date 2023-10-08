@@ -10,7 +10,7 @@ export interface ICourse {
     course_name: string
     course_price: string
     img: string
-
+    about: string
 }
 
 export interface ICourseData {

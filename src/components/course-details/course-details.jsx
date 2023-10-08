@@ -8,7 +8,7 @@ import CourseDetailsArea from "./course-details-area";
 const CourseDetails = ({course}) => {
   return (
     <>
-      <Breadcrumb title="Course Details" subtitle="Course Details" isDbbl="Course" />
+      <Breadcrumb title={course.course_title} subtitle={course.title} isDbbl="Courses" />
       <CourseDetailsArea course={course}/>
       <CourseArea />
       <CounterArea />
