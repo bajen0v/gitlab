@@ -132,7 +132,7 @@ const Footer = () => {
                     <div className="footer-widget__social d-flex align-items-center">
                       {social_links.map((link, i) => (
                         <a href={link.link} target={link.target} key={i}>
-                          <i className={link.icon}></i>
+                          <i className={link.icon} style={{color: "#ffffff"}}></i>
                         </a>
                       ))}
                     </div>

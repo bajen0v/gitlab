@@ -28,7 +28,9 @@
 	z-index: -1;
 }
 .tpfea {
-    padding:40px 30px 35px;
+    min-height: 350px;
+    text-align: center;  
+    padding:30px 30px 35px;
     background: var(--tp-common-white);
     box-shadow: 5px 15px 30px rgba(5, 13, 54, 0.06);
     border-radius: 10px;

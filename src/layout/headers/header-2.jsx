@@ -7,13 +7,13 @@ import Sidebar from './sidebar';
 
 // category_data
 const category_data = [
-    {title: "Bangla Medium"},
-    {title: "English Medium"},
-    {title: "Video Edition"},
-    {title: "Logo Design"},
-    {title: "Francy Medium"},
-  
-  ]
+   {title: "English Express"},
+   {title: "Visual Learning"},
+   {title: "Media Mastery"},
+   {title: "Digital Design"},
+   {title: "Web Design"},
+ 
+ ]
 
 const HeaderTwo = () => {
 

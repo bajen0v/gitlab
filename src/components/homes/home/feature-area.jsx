@@ -3,29 +3,53 @@ import React from "react";
 const feature_content = [
   {
     id: 1,
-    icon: "fi fi-rr-paper-plane",
+    icon: "fi fi-rr-rocket",
     title: "Online Courses",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    des: "Access world-class materials interactively, serving as unique catalysts for change in myocardinal development.",
   },
   {
     id: 2,
-    icon: "fi fi-rr-user",
-    title: "Expert Trainer",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    icon: "fi fi-rr-book-alt",
+    title: "E-Libraries",
+    des: "Explore vast digital libraries with a wide range of resources, enabling limitless learning opportunities.",
   },
-
   {
     id: 3,
-    icon: "fi fi-rr-document",
-    title: "Get Certificate",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    icon: "fi fi-rr-graduation-cap",
+    title: "Virtual Degrees",
+    des: "Earn accredited degrees through virtual universities, opening doors to new career prospects.",
   },
   {
     id: 4,
-    icon: "fi fi-rr-calendar",
-    title: "Life Time Access",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
-  },
+    icon: "fi fi-rr-globe",
+    title: "Global Reach",
+    des: "Connect with learners worldwide, fostering cross-cultural collaboration and knowledge exchange.",
+  }
+  // {
+  //   id: 1,
+  //   icon: "fi fi-rr-paper-plane",
+  //   title: "Online Courses",
+  //   des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+  // },
+  // {
+  //   id: 2,
+  //   icon: "fi fi-rr-user",
+  //   title: "Expert Trainer",
+  //   des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+  // },
+
+  // {
+  //   id: 3,
+  //   icon: "fi fi-rr-document",
+  //   title: "Get Certificate",
+  //   des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+  // },
+  // {
+  //   id: 4,
+  //   icon: "fi fi-rr-calendar",
+  //   title: "Life Time Access",
+  //   des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+  // },
 ];
 
 

@@ -4,27 +4,28 @@ $colors: (
         black: #000,
     ),
     heading: (
-        primary: #050D36,
-        secondary:#FF6652,
-        b-light:#050D36,
+        primary: #000000,
+        secondary:#393939,
+        b-light:#2e2e2e,
+        white: #ffffff,
     ),
     grey: (
         1:#F8FAFA,
-        2:#F5F6F8,
+        2:#8e8e8e,
 
     ),
     text: (
         body:#000,
-        1:#000,
-        2:#777C90,
+        1:#000000,
+        2:#bbbbbb,
     ),
     theme: (
-        1: #FF6652,
-        2: #F7F8F9,
+        1: #000000,
+        2: #555555,
 
     ),
     border: (
-        1: #fff,
-        2: #245D51,
+        1: #000000,
+        2: #000000,
     )
 );

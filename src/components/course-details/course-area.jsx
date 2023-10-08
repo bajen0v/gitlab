@@ -10,7 +10,7 @@ const CourseArea = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="section-title mb-65">
-                <h2 className="tp-section-title mb-20">Related Courses</h2>
+                <h2 className="tp-section-title mb-20">Most Popular Courses</h2>
               </div>
             </div>
           </div>

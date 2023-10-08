@@ -3,21 +3,21 @@ import React from "react";
 
 const choose_data = {
   bg_img: "/assets/img/bg/choose-img-01.jpg",
-  experiences_years: "23",
+  experiences_years: "15",
   title: "Why Choose Us",
   sub_title: (
     <>
-      Why You Choose Our
+      Why You Should Choose Our
       <br />
-      E-Pora Online learning
+      AI Chatbot Services
     </>
   ),
-  des: 'Dramatically supply transparent deliverables before & can backward comp internal or "organic" sources.',
+  des: 'We provide cutting-edge AI technology to enhance your user experience and streamline your business operations.',
 
   choose_list: [
-    { title: "Increasing Your Learning Skills" },
-    { title: "High Quality Video & Audio Classes" },
-    { title: "Finish Your Course, Get Certificate" },
+    { title: "24/7 Availability and Instant Responses" },
+    { title: "Efficient and Accurate Information Retrieval" },
+    { title: "Seamless Integration with Multiple Platforms" },
   ],
 };
 

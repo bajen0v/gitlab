@@ -26,8 +26,8 @@ const about_info = {
     img_2: "/assets/img/about/about-shape-01.png",
     img_3: "/assets/img/about/about-shape-02.png",
     about_title: "About Our Courses",
-    sub_title:"Explore Thousands of Creative Classes.",
-    des: <>Dramatically supply transparent deliverables beforese backward comp internal or "organic" sources. Comp  transparent leverage other.</>,
+    sub_title:"Do u get ready to learning journey with us?",
+    des: <>Whether you're eager to master a new skill, boost your career, or simply satisfy your curiosity, we've got you covered!</>,
     about_btn: "Read More"
 }
 

@@ -7,25 +7,25 @@ const suitable_data = [
     id: 1,
     title: (
       <>
-        Do you want to <span>Learn</span> here?
+        Are you ready to <span>Explore</span> new horizons?
       </>
     ),
-    des: <>Dramatically supply transpa deliverables before & you.</>,
+    des: <>Unleash your potential and discover endless possibilities.</>,
     img: "/assets/img/bg/suit-bg-01.png",
   },
   {
     id: 2,
     title: (
       <>
-        Do you want to <span>Learn</span> here?
+        Ready to <span>Level Up</span> your skills?
       </>
     ),
-    des: <>Dramatically supply transpa deliverables before & you.</>,
+    des: <>Unlock your full potential and achieve greatness.</>,
     img: "/assets/img/bg/suit-bg-02.png",
   },
 ];
 
-const SuitableArea = ({ style_2}) => {
+const SuitableArea = ({ style_2 = '' }) => {
   return (
     <>
       <section
@@ -46,7 +46,7 @@ const SuitableArea = ({ style_2}) => {
               <div className="section-title mb-60">
                 <span className="tp-sub-title mb-25">Join With Us</span>
                 <h2 className="tp-section-title">
-                  Which One is Suitable For You?
+                  Which Option Best Fits You?
                 </h2>
               </div>
             </div>

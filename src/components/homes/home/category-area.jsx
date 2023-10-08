@@ -1,58 +1,56 @@
 import Link from "next/link";
 import React from "react";
 
-// category_data
 const category_data = [
   {
     id: 1,
     img: "/assets/img/category/category-01.png",
-    title: "Design Deve",
+    title: "Design and Creativity",
     link: "/course-grid",
   },
   {
     id: 2,
     img: "/assets/img/category/category-02.png",
-    title: "Development",
+    title: "Software Engineering",
     link: "/course-grid",
   },
   {
     id: 3,
     img: "/assets/img/category/category-03.png",
-    title: "Marketing",
+    title: "Language Learning",
     link: "/course-grid",
   },
   {
     id: 4,
     img: "/assets/img/category/category-04.png",
-    title: "It & Software",
+    title: "Web Development",
     link: "/course-grid",
   },
   {
     id: 5,
     img: "/assets/img/category/category-05.png",
-    title: "Videography",
+    title: "Video Production",
     link: "/course-grid",
   },
   {
     id: 6,
     img: "/assets/img/category/category-06.png",
-    title: "Business Sys",
+    title: "Basic of Business",
     link: "/course-grid",
   },
   {
     id: 7,
     img: "/assets/img/category/category-07.png",
-    title: "Photography",
+    title: "Digital Media",
     link: "/course-grid",
   },
   {
     id: 8,
     img: "/assets/img/category/category-08.png",
-    title: "Musical Intru",
+    title: "Music Instruments",
     link: "/course-grid",
   },
 ];
-
 
 const CategoryArea = () => {
   return (

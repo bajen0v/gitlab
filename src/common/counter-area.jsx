@@ -5,33 +5,34 @@ import Count from "./count";
 const counter_data = [
   {
     id: 1,
-    icon: "fi fi-rr-user",
-    count_number: 276,
+    icon: "fi fi-rr-globe",
+    count_number: 512,
     thousand: "K",
-    title: "Worldwide Students",
+    title: "Happy Users",
   },
   {
     id: 2,
-    icon: "fi fi-rr-document",
-    count_number: 23,
+    icon: "fi fi-rr-clock",
+    count_number: 32,
     thousand: "",
-    title: "Years Experience",
+    title: "Hours of Service",
   },
   {
     id: 3,
-    icon: "fi fi-rr-apps",
-    count_number: 735,
+    icon: "fi fi-rr-book",
+    count_number: 980,
     thousand: "",
-    title: "Professional Courses",
+    title: "Educational Resources",
   },
   {
     id: 4,
-    icon: "fi fi-rr-star",
-    count_number: 407,
+    icon: "fi fi-rr-thumbs-up",
+    count_number: 623,
     thousand: "K",
-    title: "Beautiful Review",
+    title: "Positive Feedback",
   },
 ];
+
 const CounterArea = ({style_counter}) => {
   return (
     <>
@@ -40,7 +41,8 @@ const CounterArea = ({style_counter}) => {
         data-wow-duration="1s"
         data-wow-delay=".4s"
         
-        style={{ backgroundImage: style_counter ? null : `url(/assets/img/bg/shape-bg-1.png)`}}
+        style={{ backgroundImage: style_counter ? null : 'url(/assets/img/bg/shape-bg-1.png)'}}
+        
       >
         <div className="container">
           <div className="row">

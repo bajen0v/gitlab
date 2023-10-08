@@ -44631,17 +44631,17 @@ i[class*=" fi-ss-"]:before, i[class^=fi-ss-]:before, span[class*=fi-ss-]:before,
   --tp-common-white: #ffffff;
   --tp-common-black: #000;
   --tp-heading-primary: #050D36;
-  --tp-heading-secondary: #FF6652;
+  --tp-heading-secondary: #ffffff;
   --tp-heading-b-light: #050D36;
   --tp-grey-1: #F8FAFA;
   --tp-grey-2: #F5F6F8;
   --tp-text-body: #000;
   --tp-text-1: #000;
   --tp-text-2: #777C90;
-  --tp-theme-1: #FF6652;
+  --tp-theme-1: #2e2e2e;
   --tp-theme-2: #F7F8F9;
   --tp-border-1: #fff;
-  --tp-border-2: #245D51;
+  --tp-border-2: #000;
   /**
   @font weight declaration
   */
@@ -47086,7 +47086,7 @@ img {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: transparent;
+  background: var(--tp-common-black);
 }
 .header__info ul li {
   list-style: none;
@@ -48234,6 +48234,8 @@ ul.bili_circle li::before {
 }
 
 .tpfea {
+  min-height: 330px;
+  text-align: center;
   padding: 40px 30px 35px;
   background: var(--tp-common-white);
   box-shadow: 5px 15px 30px rgba(5, 13, 54, 0.06);
@@ -48938,7 +48940,7 @@ div.choose-sub-color {
   display: inline-block;
   height: 50px;
   width: 50px;
-  line-height: 50px;
+  line-height: 60px;
   font-size: 20px;
   text-align: center;
   background: var(--tp-common-white);
@@ -49712,7 +49714,7 @@ div.choose-sub-color {
   font-size: 22px;
   font-weight: 500;
   font-family: "Gordita-500";
-  color: var(--tp-color-primary);
+  color: var(--tp-color-primay);
 }
 .c-details-social a {
   margin-right: 20px;
@@ -52351,15 +52353,15 @@ p.checkout-coupon input[type=text]:focus {
   width: 48px;
   line-height: 48px;
   display: block;
-  color: var(--tp-heading-secondary);
-  background: var(--tp-common-white);
+  color: var(--tp-heading-white);
+  background-color: var(--tp-common-black);
   text-align: center;
   border-radius: 50px;
   font-size: 20px;
-  margin-right: 8px;
+  margin-right: 18px;
 }
 .footer-widget__social a:hover {
-  background: var(--tp-heading-secondary);
+  background: var(--tp-heading-primary);
   color: var(--tp-common-white);
   display: block;
 }

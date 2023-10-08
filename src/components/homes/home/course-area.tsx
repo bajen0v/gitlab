@@ -1,10 +1,13 @@
-import course_data from "@/src/data/course-data";
+// import course_data from "../../../data/course-data";
 import Link from "next/link";
-import React from "react";
+import React, { FC } from "react";
+import { ICourseData } from "@/src/interfaces/courses.interfaces";
+import CoursesRender from "./course-single"
 
-const CourseArea = () => {
+
+
+const CourseArea: FC<ICourseData> = ({ courses }) => {
   return (
-    <>
       <section
         className="course-area pt-115 pb-110 wow fadeInUp"
         data-wow-duration=".8s"
@@ -21,7 +24,8 @@ const CourseArea = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-            {course_data.map((item) => (
+          {courses.length? courses.map(course => <CoursesRender key={course.id} course={course}/>) : <div>NOT FAUND COURSES</div>}
+            {/* {courses.map((item) => (
               <div key={item.id} className="col-xl-4 col-lg-6 col-md-6">
                 <div className="tpcourse mb-40">
                   <div className="tpcourse__thumb p-relative w-img fix">
@@ -69,10 +73,14 @@ const CourseArea = () => {
                     <div className="tpcourse__category d-flex align-items-center justify-content-between">
                       <ul className="tpcourse__price-list d-flex align-items-center">
                         <li>
-                          <Link href={item.course_link}>{item.course_title}</Link>
+                          <Link href={item.course_link}>
+                            {item.course_title}
+                          </Link>
                         </li>
                         <li>
-                          <Link href={item.course_link}>{item.course_name}</Link>
+                          <Link href={item.course_link}>
+                            {item.course_name}
+                          </Link>
                         </li>
                       </ul>
                       <h5 className="tpcourse__course-price">
@@ -82,7 +90,7 @@ const CourseArea = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            ))} */}
           </div>
           <div className="row text-center">
             <div className="col-lg-12">
@@ -95,7 +103,6 @@ const CourseArea = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 

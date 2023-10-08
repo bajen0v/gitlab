@@ -36,7 +36,7 @@ const setting = {
     },
   ],
 };
-const BrandArea = ({ style_2, style_3, style_1, style_about }) => {
+const BrandArea = ({ style_2='', style_3='', style_1, style_about='' }) => {
   return (
     <>
       <section
@@ -51,7 +51,7 @@ const BrandArea = ({ style_2, style_3, style_1, style_about }) => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title mb-65 text-center">
-                  <h2 className="tp-section-title mb-20">Our Key Supporters</h2>
+                  <h2 className="tp-section-title mb-20">Our Clients</h2>
                 </div>
               </div>
             </div>

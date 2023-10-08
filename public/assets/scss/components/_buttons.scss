@@ -78,8 +78,10 @@
 	}
 
 	&:hover{
-		color: var(--tp-common-white);
-		background-color: var(--tp-common-black);
+		color: var(--tp-common-black);
+		background-color: var(--tp-common-white);
+		border: 0.1px solid var(--tp-common-black);
+
 	}
 	&:focus{
 		color: var(--tp-common-white);

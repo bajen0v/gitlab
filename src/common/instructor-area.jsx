@@ -7,39 +7,40 @@ const instructor_info = [
   {
     id: 1,
     img: "/assets/img/bg/instructor-bg-01.jpg",
-    name: "Devon Lane",
-    title: "Instructor",
+    name: "Alex Johnson",
+    title: "Tutor",
+
   },
   {
     id: 2,
     img: "/assets/img/bg/instructor-bg-02.jpg",
-    name: "Jane Cooper",
-    title: "Instructor",
+    name: "Emily Davis",
+    title: "Tutor",
   },
   {
     id: 3,
     img: "/assets/img/bg/instructor-bg-03.jpg",
-    name: "Courtney Henry",
-    title: "Instructor",
+    name: "Sophia Martinez",
+    title: "Tutor",
   },
   {
     id: 4,
     img: "/assets/img/bg/instructor-bg-04.jpg",
-    name: "Devon Lane",
-    title: "Instructor",
+    name: "Emma Johnson",
+    title: "Tutor",
   },
 ];
 
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com",
     target: "_blank",
     icon: "fab fa-facebook-f",
     name: "Facebook",
   },
   {
-    link: "http://twitter.com",
+    link: "https://www.twitter.com",
     target: "_blank",
     icon: "fab fa-twitter",
     name: "Twitter",
@@ -121,8 +122,8 @@ const InstructorArea = ({ style_2 }) => {
             {style_2 ? (
               <div className="col-lg-12">
                 <div className="section-title mb-35 text-center">
-                  <span className="tp-sub-title-box mb-15">Instructor</span>
-                  <h2 className="tp-section-title">Our Expert Instructor</h2>
+                  <span className="tp-sub-title-box mb-15">Tutor</span>
+                  <h2 className="tp-section-title">Our Skilled Tutors</h2>
                 </div>
               </div>
             ) : (
@@ -130,7 +131,7 @@ const InstructorArea = ({ style_2 }) => {
                 <div className="col-xl-6 col-lg-8 col-md-7 col-12">
                   <div className="section-title mb-65">
                     <h2 className="tp-section-title mb-20">
-                      Our Expert Instructor
+                    Our Skilled Tutors
                     </h2>
                   </div>
                 </div>
@@ -190,7 +191,7 @@ const InstructorArea = ({ style_2 }) => {
             <div className="col-lg-12">
               <div className="instructor-btn text-center">
                 <Link className="tp-btn" href="/instructor">
-                  All Instructor
+                  All Tutors
                 </Link>
               </div>
             </div>

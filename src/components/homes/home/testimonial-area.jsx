@@ -4,49 +4,45 @@ import Slider from "react-slick";
 const testimonial_data = [
   {
     id: 1,
-    name: "Courtney Henry",
+    name: "John Doe",
     img: "assets/img/icon/test-ava-01.png",
-    title: "Sr. UX/UI Designer",
+    title: "Marketing Specialist",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        Helping businesses grow through strategic marketing campaigns.
       </>
     ),
   },
   {
     id: 2,
-    name: "Devon Lane",
+    name: "Alex Johnson",
     img: "assets/img/icon/test-ava-02.png",
-    title: "Software Engineer",
+    title: "Project Manager",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        Organizing teams and ensuring successful project delivery.
       </>
     ),
   },
   {
     id: 3,
-    name: "Jenny Wilson",
+    name: "Michael Johnson",
     img: "assets/img/icon/test-ava-03.png",
-    title: "Content Writer",
+    title: "Frontend Developer",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        Passionate about creating user-friendly and visually appealing websites.
       </>
     ),
   },
   {
     id: 4,
-    name: "Jenny Wilson",
-    img: "assets/img/icon/test-ava-03.png",
-    title: "Content Writer",
+    name: "David Wilson",
+    img: "assets/img/icon/testi-ava-sub-1.png",
+    title: "Sales Manager",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        Experienced in building strong client relationships and driving sales growth.
       </>
     ),
   },
@@ -114,7 +110,7 @@ const TestimonialArea = () => {
             <div className="col-xl-6 col-lg-8 col-md-8 col-12">
               <div className="section-title mb-65">
                 <h2 className="tp-section-title mb-20">
-                  Our Expert Instructor
+                  Our Expert Tutors
                 </h2>
               </div>
             </div>

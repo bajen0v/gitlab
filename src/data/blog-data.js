@@ -1,24 +1,24 @@
 const blog_data = [
   {
     id: 1,
-    date: "Jan 21 , 2022",
+    date: " Oct 6 , 2023",
     img: "/assets/img/bg/blog-img-01.jpg",
-    title: "Educational Technology & Mobile Learning",
-    des: "Dramatically supply transparent deliverab before & you backward comp internal.",
+    title: "The Power of Educational Technology",
+    des: "Passionate about leveraging technology to enhance education and empower learners.",
   },
   {
     id: 2,
-    date: "Jan 21 , 2022",
+    date: " Oct 7 , 2023",
     img: "/assets/img/bg/blog-img-02.jpg",
-    title: "Computer Technology &  Fild Work Experiences",
-    des: "Dramatically supply transparent deliverab before & you backward comp internal.",
+    title: "Innovations in Educational Technology",
+    des: "Exploring the intersection of education, technology, and innovation.",
   },
   {
     id: 3,
-    date: "Jan 21 , 2022",
+    date: " Oct 8 , 2023",
     img: "/assets/img/bg/blog-img-03.jpg",
-    title: "Engineering Technology & Academic Learning",
-    des: "Dramatically supply transparent deliverab before & you backward comp internal.",
+    title: "Stay Ahead with Educational Technology",
+    des: "Stay updated with the latest trends and advancements in educational technology.",
   },
  
 ];

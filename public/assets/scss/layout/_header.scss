@@ -101,7 +101,7 @@
 
             & button {
                 &::after {
-                    background-color: rgba($color: #3E8454, $alpha: .14);
+                    background-color: rgba($color: #031220, $alpha: .14);
                 }
             }
         }
@@ -477,7 +477,7 @@
                 line-height: 53px;
                 text-align: center;
                 border-radius: 50px;
-                color: #245D51;
+                color: #031220;
                 background-color: rgb(36, 93, 81, .1);
                 margin-left: 20px;
                 @media #{$xs} {

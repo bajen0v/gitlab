@@ -1,52 +1,52 @@
-const our_course_data = [
+const our_course_data = [    
   //   tab all
   {
     id: 1,
     img: "/assets/img/course/course-thumb-01.jpg",
     icon: "/assets/img/icon/course-3-avata-1.png",
-    title: "Master Web Design in Adobe XD: Complete UI/UX Masterclass",
-    cls_text: "35 Classes",
-    st_text: "291 Students",
-    start_text: "4.7",
-    course_title: "Design",
-    ct_color: "c-color-yellow",
+    title: "Data Science Essentials: A Comprehensive Guide",
+    cls_text: "60 Classes",
+    st_text: "800 Students",
+    start_text: "4.9",
+    course_title: "Data Science",
+    ct_color: "c-color-blue",
     course_link: "/course-details",
-    course_name: "Development",
-    cn_color: "c-color-red",
-    course_price: "29.99",
-    total_start: "125"
+    course_name: "Essentials",
+    cn_color: "c-color-green",
+    course_price: "59.99",
+    total_start: "150"
   },
   {
     id: 2,
     img: "/assets/img/course/course-thumb-02.jpg",
     icon: "/assets/img/icon/course-avata-02.png",
-    title: "How to Write Great Web Content - Better Search Rankings!",
-    cls_text: "35 Classes",
-    st_text: "291 Students",
+    title: "Graphic Design Fundamentals: Learn the Basics",
+    cls_text: "30 Classes",
+    st_text: "500 Students",
     start_text: "4.7",
-    course_title: "Write",
-    ct_color: "c-color-green",
+    course_title: "Graphic Design",
+    ct_color: "c-color-purple",
     course_link: "/course-details",
-    course_name: "Content",
-    cn_color: "c-color-blue",
+    course_name: "Fundamentals",
+    cn_color: "c-color-orange",
     course_price: "29.99",
-    total_start: "125"
+    total_start: "100"
   },
   {
     id: 3,
     img: "/assets/img/course/course-thumb-03.jpg",
     icon: "/assets/img/icon/course-avata-03.png",
-    title: "Dreamweaver - Coding your first website using Dreamweaver",
-    cls_text: "35 Classes",
-    st_text: "291 Students",
-    start_text: "4.7",
-    course_title: "Coding",
-    ct_color: "c-color-purple",
+    title: "Web Development Bootcamp: From Zero to Hero",
+    cls_text: "50 Classes",
+    st_text: "1000 Students",
+    start_text: "4.8",
+    course_title: "Web Development",
+    ct_color: "c-color-blue",
     course_link: "/course-details",
-    course_name: "Development",
-    cn_color: "c-color-red",
-    course_price: "29.99",
-    total_start: "125"
+    course_name: "Bootcamp",
+    cn_color: "c-color-green",
+    course_price: "49.99",
+    total_start: "200"
   },
   {
     id: 4,
@@ -605,4 +605,6 @@ const our_course_data = [
     total_start: "125"
   },
 ];
+
+
 export default our_course_data;
